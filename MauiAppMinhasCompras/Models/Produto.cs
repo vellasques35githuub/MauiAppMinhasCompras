@@ -49,7 +49,7 @@ namespace MauiAppMinhasCompras.Models
             {
                 if (value == 0)
                 {
-                    throw new Exception("Por favor, preencha a preço");
+                    throw new Exception("Por favor, preencha o preço");
                 }
 
                 _preco = value;
